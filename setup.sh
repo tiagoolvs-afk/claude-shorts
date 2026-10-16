@@ -62,7 +62,7 @@ else
     "$VENV/bin/pip" install --quiet faster-whisper mediapipe numpy opencv-python
 fi
 
-echo "[Python] Venv ready: $VENV"
+echo "[Python] Installing YouTube URL support (yt-dlp)..."\n"$VENV/bin/pip" install --quiet yt-dlp\n\necho "[Python] Venv ready: $VENV"
 echo ""
 
 # --- Node.js / Remotion ---
